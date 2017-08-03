@@ -1,0 +1,14 @@
+
+What is a Thread?
+    Thread in java means 2 things.
+    1 instance of class java.lang.thread
+    2 thread of execution
+
+New run() methods run on a seperate call stack.
+Thread dies after run() completes execution.
+Perfect way:
+MyRunnable r = new Runnable()
+Thread t = new Thread(r)
+Same runnable can be passed to many threads.
+
+
